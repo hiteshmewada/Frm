@@ -1,0 +1,158 @@
+body {
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif!important;
+    margin: 0 1 0 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.main{
+  min-height: 100vmax;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #DfDBE5;
+}
+.top .logo{
+  width: 4rem;
+  border-radius: 100%;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+.top h1{
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 0 auto 2rem;
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 10rem 10rem;
+  background-color: #f54f63;
+}
+.head{
+  background-color: #3a2f2f73;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+.top p{
+  margin: 0;
+  font-size: 1.3rem;
+  color: #eaeaea;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.bottom{
+  width: 60rem;
+  margin: 0 auto;
+  background: white;
+  position: relative;
+  top: - 7rem;
+  border-radius: 1.5rem;
+  box-shadow: 4px 3px 20px #3535358c;
+  display: flex;
+  flex-direction: row;
+}
+.image{
+  background-color: #70a1ff;
+  width: 25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 1.5rem;
+}
+.mole{
+  width: 18rem;
+  height: 18rem;
+  border-radius: 100%;
+}
+.form{
+  width: 35rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  padding: 2rem 2rem 4rem;
+}
+h2{
+  color: #3f51b5;
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+label{
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: 400;
+  display: block;
+  margin: 0.5rem 0;
+}
+.input{
+  width: 26rem;
+  padding: 0.5rem;
+  border: 2px solid #b9b9b6;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  font-family: 'Roboto', sans-serif;
+  color: #615a5a;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.option{
+  width: 25rem;
+  padding: 1rem;
+  border: 2px solid #b9b9b6;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+}
+.eachopt{
+  display: inline-block;
+  width: 50%;
+}
+.eachopt span{
+  vertical-align: top;
+  color: #615a5a;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+input[type=checkbox]{
+  width: 1.2rem;
+  height: 1.2rem;
+}
+input.agree{
+  width : 0.9rem;
+  height: 0.9rem;
+}
+label.agree{
+  font-display: 0.9rem;
+  display: inline-block;
+  
+}
+.privacy {
+  font-size: 0.9rem;
+  color: #a29b9b;
+  font-weight: 400;
+  max-width: 28rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+.privacy span{
+  color: #4fa3ca;
+  font-weight: 500;
+  cursor: pointer;
+}
+.submit{
+  width: 13rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  color: white; 
+  background: #3F51B5;
+  border: 0;
+  outline: 0;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.submit:hover{
+transform: scale(1.05) translateY(-2px);
+  box-shadow: 3px 3px 6px #43A6BC;
+}
